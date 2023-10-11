@@ -6,4 +6,9 @@ for(var i = 2;i<n;i++){
         break
     }
 }
-console.log("Prime Number")
+if(flag==true){
+    console.log("prime not")
+}else{
+    console.log("prime number")
+}
+
