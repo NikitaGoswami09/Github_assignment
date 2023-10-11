@@ -1,19 +1,13 @@
-let X=7;
-let count=0;
-for(let i=1;i<=7;i++)
-{
-    if(X%i==1)
-    {
-        count+=1;
+let n = 10
+flag = false
+for(var i = 2;i<n;i++){
+    if(n%i==0){
+        flag = true
+        break
     }
-
 }
-if(count==2)
-{
-    console.log("Prime Number");
-
-}
-else
-{
-    console.log("Not a prime number");
+if(flag==true){
+    console.log("prime not")
+}else{
+    console.log("prime number")
 }
