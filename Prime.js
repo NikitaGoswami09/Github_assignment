@@ -11,3 +11,4 @@ if(flag==true){
 }else{
     console.log("prime number")
 }
+
